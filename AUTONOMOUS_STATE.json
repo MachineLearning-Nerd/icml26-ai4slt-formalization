@@ -20,8 +20,8 @@
     "C2": 1,
     "C3": 1
   },
-  "last_checkpoint": "2026-08-17T01:21:11Z",
-  "last_known_git_commit": "34c43e647c63139bb9c5a8fd94e45762d6ad1a46",
+  "last_checkpoint": "2026-08-17T01:21:53Z",
+  "last_known_git_commit": "4f5dc3337b4487812c3db15f60e3e9947185af50",
   "publication_allowed": false,
   "compute_policy": "Recorded evidence is retained; ordinary dossier verification does not rerun paid or remote full-build compute.",
   "selection_rationale": "Public AI4SLT paper and official Lean repository, source-era submodule pin, named formalization declarations, and recorded full-release build provide a bounded executable audit while historical priority and human-supervision claims remain provenance.",
