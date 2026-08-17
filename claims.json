@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-ai4slt-formalization",
+  "paper": {
+    "title": "AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory",
+    "authors": [
+      "Yuanhe Zhang",
+      "Jason D. Lee",
+      "Fanghui Liu"
+    ],
+    "arxiv": "2602.02285",
+    "arxiv_version": "v2",
+    "openreview": "dfqmQ9WhCP"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "status": "verified_scoped",
+      "paper_statement": "AI4SLT provides a broad Lean 4 formalization of statistical learning theory grounded in empirical-process results.",
+      "scope": "Pinned source-era tree plus recorded full official-release build; executable formalization evidence only.",
+      "evidence": [
+        "outputs/source_audit.json",
+        "outputs/hf_build.json",
+        "outputs/claim_verification.json",
+        "publication_gate.json"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "verified_scoped",
+      "paper_statement": "The development formalizes Dudley's entropy-integral theorem for sub-Gaussian processes.",
+      "scope": "Pinned Dudley declaration and recorded full-build marker; not a literature-wide priority claim.",
+      "evidence": [
+        "upstream/SLT/Dudley.lean",
+        "outputs/source_audit.json",
+        "outputs/hf_job_build.log",
+        "outputs/claim_verification.json"
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "verified_scoped_with_provenance_limits",
+      "paper_statement": "The codebase contains approximately 30,000 lines of human-verified Lean code.",
+      "scope": "Source/build counts and zero-placeholder checks are executable; the paper's 500-hour human-supervision statement remains provenance.",
+      "evidence": [
+        "outputs/source_audit.json",
+        "outputs/hf_build.json",
+        "outputs/claim_verification.json",
+        "REPORT.md"
+      ]
+    }
+  ],
+  "official_code": {
+    "repository": "https://github.com/YuanheZ/lean-stat-learning-theory",
+    "branch": "source-era detached submodule",
+    "commit": "7b82b1323c80f0c21ca449fd12e1c24315ae9782"
+  },
+  "publication_allowed": false,
+  "publication_policy": "Publish the scoped audit and its provenance, but do not promote historical priority or human-supervision provenance into independently verified paper-level claims."
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If this audit dossier or its scoped evidence is useful, please cite the paper and this repository."
+type: software
+title: "AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory — scoped audit"
+abstract: "A source-pinned audit of the AI4SLT Lean formalization, its Dudley theorem contract, and recorded full-release build evidence."
+authors:
+  - family-names: Zhang
+    given-names: Yuanhe
+  - family-names: Lee
+    given-names: Jason D.
+  - family-names: Liu
+    given-names: Fanghui
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-ai4slt-formalization"
+url: "https://arxiv.org/abs/2602.02285v2"
+date-released: 2026-08-17
+keywords:
+  - ICML 2026
+  - Lean 4
+  - formalization
+  - statistical learning theory
+  - reproduction audit

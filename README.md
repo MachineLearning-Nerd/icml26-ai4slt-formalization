@@ -101,6 +101,29 @@ recorded full build uses the official `v4.32.0` release and is documented in
 [`docs/hf_job_protocol.md`](docs/hf_job_protocol.md). Re-running a comparable
 full Lean build is intentionally a separate, compute-heavy operation.
 
+## Audit dossier and final-state check
+
+The standardized audit records are:
+
+- [CLAIM_EVIDENCE.md](CLAIM_EVIDENCE.md): claim producers, checkers, outcomes, and scope limits.
+- [SOURCE_AUDIT.md](SOURCE_AUDIT.md): paper, source-era submodule, release-build, and provenance pins.
+- [ENVIRONMENT.md](ENVIRONMENT.md): the reproducible audit command and the separate recorded build environment.
+- [REPORT.md](REPORT.md): final scoped verdict and publication policy.
+- [BRANCH_AUDIT.md](BRANCH_AUDIT.md): normalized branch summary; [branch-audit.md](branch-audit.md) is the complete top-level map.
+- [CITATION.cff](CITATION.cff): machine-readable citation.
+- [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md): author acknowledgment.
+
+From a fresh clone with the pinned submodule initialized, run:
+
+~~~sh
+python3 verify_final.py
+~~~
+
+The verifier checks the live main-only GitHub state, canonical
+MachineLearning-Nerd attribution, submodule pin, current publication gate,
+source/build metrics, gate-copy equality, and the explicit provenance limits.
+It does not rerun the historical full Lean build.
+
 ## Citation
 
 ```bibtex
