@@ -1,8 +1,9 @@
 # Repro - AI4SLT: Empirical Processes in Lean 4
 
 OpenReview `dfqmQ9WhCP`. This logbook records a source-era static audit and a
-complete official-release Lean build. The claim gate is fail-closed and remains
-pending until the terminal build markers are materialized.
+complete official-release Lean build. The fail-closed gate is complete at
+scoped status; the canonical machine-readable result is `publication_gate.json`
+in the repository root.
 
 ## Pages
 

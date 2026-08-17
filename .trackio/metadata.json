@@ -1,26 +1,21 @@
 {
-  "space_id": "DineshAI/dfqmQ9WhCP",
-  "title": "Repro - AI4SLT: Empirical Processes in Lean 4",
+  "status": "SCOPED_AUDIT_COMPLETE",
   "openreview_id": "dfqmQ9WhCP",
   "arxiv_id": "2602.02285",
-  "paper": {
-    "openreview_id": "dfqmQ9WhCP",
-    "arxiv_id": "2602.02285"
-  },
   "tags": [
     "icml2026-repro",
     "paper-dfqmQ9WhCP"
   ],
-  "private": false,
-  "autosync": false,
   "local_path_artifacts": [
     {
+      "path": "outputs/hf_job_build.log",
+      "size": 27788,
+      "artifact_type": "build-log"
+    },
+    {
       "path": "outputs/evidence_bundle.jsonl",
-      "abs_path": "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-dfqmQ9WhCP-ai4slt-formalization/outputs/evidence_bundle.jsonl",
-      "size": 540,
+      "size": 3902,
       "artifact_type": "dataset"
     }
-  ],
-  "local_artifacts": [],
-  "last_page": "conclusion"
+  ]
 }

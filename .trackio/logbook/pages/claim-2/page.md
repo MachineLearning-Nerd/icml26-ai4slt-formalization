@@ -7,4 +7,6 @@
 -->
 ## Dudley entropy integral
 
-The paper-era source declares `theorem dudley` in `SLT/Dudley.lean`. This claim also requires the full release build, including `SLT.Dudley` and its least-squares application.
+The source-era source declares `theorem dudley` in `SLT/Dudley.lean`. This
+claim also requires the recorded full release build, including `SLT.Dudley`
+and its least-squares application.

@@ -1,0 +1,45 @@
+{
+  "paper": {
+    "title": "AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory",
+    "authors": ["Yuanhe Zhang", "Jason D. Lee", "Fanghui Liu"],
+    "openreview_id": "dfqmQ9WhCP",
+    "arxiv_id": "2602.02285",
+    "arxiv_version": "v2",
+    "arxiv": "https://arxiv.org/abs/2602.02285v2",
+    "pdf_path": "docs/primary.pdf",
+    "pdf_sha256": "6c98193350a5242def4ab6d918e2e6ba7a4110eeb09c63766c9e886e3731e5f2",
+    "source_archive_path": "docs/arxiv_source.tar",
+    "source_archive_sha256": "0091ed288889e3ff262a5f13174065fe51b9debbf5d18bf48b1057ff3ae2a429",
+    "official_repository": "https://github.com/YuanheZ/lean-stat-learning-theory",
+    "official_commit": "7b82b1323c80f0c21ca449fd12e1c24315ae9782",
+    "source_era_toolchain": "leanprover/lean4:v4.27.0-rc1",
+    "scope": "three executable formalization claims plus source-era and full-release build evidence"
+  },
+  "source_tree": {
+    "root": "upstream/SLT",
+    "file_count": 55,
+    "line_count": 34684,
+    "sha256": "730c607976bf0784f3c9ca6dd76df2ba271a96c1f809d287ef3adf9a5b45e23e"
+  },
+  "anchors": {
+    "upstream/SLT/Dudley.lean": "72ecafe31e8ad23f8373c7153dad6bb25ac940d95443a7cd5d9944a9efc7614a",
+    "upstream/SLT/EfronStein.lean": "5c1880799e993d938174138055fa2027f0cfb6cfe350be07bdfe61578759d179",
+    "upstream/SLT/GaussianLipConcen.lean": "117e47a301c2c962384c2abb9a6a320322ea6f5a1c90d389770d3a917deceda4",
+    "upstream/SLT/LeastSquares/LinearRegression/MinimaxRate.lean": "8a6e4c7dd86bcd83b807289f9799ef9902078f067573c00cd106437f677d4ad2",
+    "upstream/lean-toolchain": "d71f508cc546aeb22c1687e8ed95fc7e371795a448134142d5e1a262fab2051e",
+    "upstream/lake-manifest.json": "c03e3fe4e65d574f536ba3e88f83a07b37a21d0c747bdd69d2b0be54e5e8af93"
+  },
+  "release_build": {
+    "job_id": "6a5dc974bee6ee1cf4ed2118",
+    "flavor": "cpu-upgrade",
+    "official_release": "v4.32.0",
+    "commit": "482a1a56daf792b33afe8cf7f07f127dc0af8640",
+    "log_path": "outputs/hf_job_build.log",
+    "log_sha256": "ac5873e1327209c2696eabdb4ea95a04fa672fbd13318682dd9d434834ede76f",
+    "lean_targets": 8720,
+    "lean_files": 65,
+    "lean_lines": 55867,
+    "placeholder_count": 0,
+    "build_success": true
+  }
+}

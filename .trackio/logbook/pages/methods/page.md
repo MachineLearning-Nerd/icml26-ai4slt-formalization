@@ -7,7 +7,11 @@
 -->
 ## Methods
 
-Pinned paper source and official code are hashed locally. A CPU-upgrade Hugging Face Job performs a complete Lean build of the official v4.32.0 release; no subset compilation is accepted.
+Pinned paper source and official code are hashed locally. A recorded
+CPU-upgrade Hugging Face Job performed a complete Lean build of the official
+v4.32.0 release; no subset compilation is accepted. The source-era
+v4.27.0-rc1 checkout is audited statically because its package manifest is not
+accepted by that release candidate's current parser.
 
 
 ---

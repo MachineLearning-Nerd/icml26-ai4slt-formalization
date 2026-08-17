@@ -1,40 +1,37 @@
-# Status
+# Status — dfqmQ9WhCP
 
-- Paper: `dfqmQ9WhCP` — *AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory*
-- Owner: `codex-ai4slt-formalization-three-claims`
-- State: `publication_queued`
-- Effective contract: 3 anchored claims / 6 possible points
-- Primary source: arXiv `2602.02285`, PDF SHA-256 `6c98193350a5242def4ab6d918e2e6ba7a4110eeb09c63766c9e886e3731e5f2`
-- Official source: `YuanheZ/lean-stat-learning-theory@7b82b1323c80f0c21ca449fd12e1c24315ae9782`
+## Identity
 
-## Current step
+- Paper: *AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory*
+- Authors: Yuanhe Zhang, Jason D. Lee, and Fanghui Liu
+- arXiv: `2602.02285v2`
+- OpenReview: `dfqmQ9WhCP`
+- Repository: `https://github.com/MachineLearning-Nerd/icml26-ai4slt-formalization`
+- Official source-era submodule: `YuanheZ/lean-stat-learning-theory@7b82b1323c80f0c21ca449fd12e1c24315ae9782`
 
-HF Jobs `cpu-upgrade` full Lean build of the official `v4.32.0` release
-completed as `DineshAI/6a5dc974bee6ee1cf4ed2118` (all 8,720 targets). The source-era checkout is
-statically audited; its pinned v4.27.0-rc1 manifest is not parser-compatible
-with that RC, so the release-build and source-era provenance are recorded
-separately. Gate evidence requires a successful full `lake build`, an exact
-source-era declaration audit, no-placeholder scan, and source-era Lean-line-
-count evidence.
+## Gate state
 
-## Attempts
+`SCOPED_PASS` / `VERIFIED_SCOPED_WITH_PROVENANCE_LIMITS`
 
-- `6a5dc7dbbee6ee1cf4ed2101`: compiled all 8,720 Lean targets, then its
-  post-build `rg` zero-match scan exited 1 under `pipefail`; it is not counted
-  as a successful evidence run.
-- `6a5dc974bee6ee1cf4ed2118`: same full release build with the zero-match scan
-  explicitly normalized to a count of zero; it completed with 65 Lean files,
-  55,867 lines, zero placeholders, and the exact `theorem dudley` marker.
+The source-era audit and recorded full `v4.32.0` Lean build support all three
+declared executable contracts. The strict paper-level status is `NOT_READY`
+only for historical-priority and human-supervision provenance that cannot be
+established from code and logs alone.
 
-## Completed handoff
+## Evidence
 
-- Full gate: 3/3 live claims verified, 6/6 points; bundle SHA-256
-  `8d68c7391abd195b69e949a35c3987cdc86decc92a36f830938c7b18d53d1404`.
-- Public repository: `MachineLearning-Nerd/icml26-repro-dfqmQ9WhCP-ai4slt-formalization`
-  at commit `a5c6197153631f83f09cc708b13217153881eea3`.
-- Canonical backlog entry 57 is queued. The shared drain owns Space creation
-  and post-publication readback; this paper session will not publish directly.
+- Source-era: 55 Lean files, 34,684 lines, zero placeholders, and four core
+  declarations including `dudley` at line 2,517.
+- Full release build: Hugging Face Jobs `6a5dc974bee6ee1cf4ed2118`, all 8,720
+  targets, 65 Lean files, 55,867 lines, zero placeholders, and `BUILD_SUCCESS`.
+- Claim verdict: 3/3 claims and 6/6 executable points pass.
+- Focused tests: `repro/tests/`.
+- Canonical gate: `publication_gate.json` and `outputs/publication_gate.json`.
 
-## Blockers
+## Provenance and branches
 
-None. This is a full formal-code compilation, not a partial module build.
+Paper PDF/source hashes, source-tree digest, release-build markers, and
+submodule boundaries are recorded in `sources.json` and `docs/SOURCE_AUDIT.md`.
+The public top-level repository keeps only `main`; `upstream/` remains a
+detached pinned submodule. Current gates do not depend on Trackio metadata,
+private paths, or queue state.
