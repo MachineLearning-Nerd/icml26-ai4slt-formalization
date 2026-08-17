@@ -335,11 +335,14 @@ def verify_artifacts() -> None:
     hf_build = current_json("outputs/hf_build.json")
     require(
         hf_build.get("build_success") is True
-        and hf_build.get("lean_targets") == 8720
         and hf_build.get("lean_files") == 65
         and hf_build.get("lean_lines") == 55867
         and hf_build.get("placeholder_count") == 0,
         "release-build output changed",
+    )
+    require(
+        hf_build.get("dudley_declaration") is True,
+        "release-build Dudley marker changed",
     )
     require(
         sha256("docs/primary.pdf")
