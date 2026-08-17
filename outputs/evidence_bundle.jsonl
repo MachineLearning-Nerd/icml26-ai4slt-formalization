@@ -1,0 +1,4 @@
+{"artifact": "outputs/source_audit.json", "bytes": 783, "sha256": "49a2dc7e13b255fbabb9de06d4d8a98314b5eaf06469ebd5a919df202a30f53a"}
+{"artifact": "outputs/hf_build.json", "bytes": 350, "sha256": "24965e2caddc5c9487ed242cf728e009a5459ac3a30ce162bc48ceaea98b9600"}
+{"artifact": "outputs/hf_job_build.log", "bytes": 27788, "sha256": "ac5873e1327209c2696eabdb4ea95a04fa672fbd13318682dd9d434834ede76f"}
+{"artifact": "outputs/claim_verification.json", "bytes": 1352, "sha256": "7875c5cab6bb91d0b82aefe735d534b61fff2b2e23610d4a4a4cff7b49554b51"}

@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED",
+  "job_id": "6a5dc974bee6ee1cf4ed2118",
+  "flavor": "cpu-upgrade",
+  "official_release": "v4.32.0",
+  "commit": "482a1a56daf792b33afe8cf7f07f127dc0af8640",
+  "build_success": true,
+  "lean_files": 65,
+  "lean_lines": 55867,
+  "placeholder_count": 0,
+  "dudley_declaration": true,
+  "log_file": "outputs/hf_job_build.log"
+}

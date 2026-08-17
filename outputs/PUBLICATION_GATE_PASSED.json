@@ -1,0 +1,13 @@
+{
+  "paper": "dfqmQ9WhCP",
+  "claims_verified": 3,
+  "claims_total": 3,
+  "earned_points": 6,
+  "possible_points": 6,
+  "tests_passed": true,
+  "all_claims_complete": true,
+  "publication_gate_passed": true,
+  "evidence_bundle": "outputs/evidence_bundle.jsonl",
+  "bundle_bytes": 540,
+  "bundle_sha256": "8d68c7391abd195b69e949a35c3987cdc86decc92a36f830938c7b18d53d1404"
+}

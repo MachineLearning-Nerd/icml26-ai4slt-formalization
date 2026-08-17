@@ -1,0 +1,32 @@
+{
+  "official_commit": "7b82b1323c80f0c21ca449fd12e1c24315ae9782",
+  "commit_matches_pin": true,
+  "lean_files": 55,
+  "lean_lines": 34684,
+  "placeholder_count": 0,
+  "declarations": {
+    "dudley": true,
+    "efronStein": true,
+    "gaussian_lipschitz_concentration": true,
+    "linear_minimax_rate_rank": true
+  },
+  "declaration_locations": {
+    "dudley": {
+      "file": "SLT/Dudley.lean",
+      "line": 2517
+    },
+    "efronStein": {
+      "file": "SLT/EfronStein.lean",
+      "line": 1212
+    },
+    "gaussian_lipschitz_concentration": {
+      "file": "SLT/GaussianLipConcen.lean",
+      "line": 1301
+    },
+    "linear_minimax_rate_rank": {
+      "file": "SLT/LeastSquares/LinearRegression/MinimaxRate.lean",
+      "line": 592
+    }
+  },
+  "all_static_checks_pass": true
+}

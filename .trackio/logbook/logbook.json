@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "title": "Repro - AI4SLT: Empirical Processes in Lean 4",
+  "emoji": "🎯",
+  "space_id": "DineshAI/dfqmQ9WhCP",
+  "paper": {
+    "openreview_id": "dfqmQ9WhCP",
+    "arxiv_id": "2602.02285"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-dfqmQ9WhCP"
+  ],
+  "updated_at": "2026-07-20T07:16:02+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - AI4SLT: Empirical Processes in Lean 4",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "claim-1",
+        "title": "Claim 1",
+        "file": "pages/claim-1/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-2",
+        "title": "Claim 2",
+        "file": "pages/claim-2/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-3",
+        "title": "Claim 3",
+        "file": "pages/claim-3/page.md",
+        "children": []
+      },
+      {
+        "slug": "methods",
+        "title": "Methods",
+        "file": "pages/methods/page.md",
+        "children": []
+      },
+      {
+        "slug": "negative-controls",
+        "title": "Negative controls",
+        "file": "pages/negative-controls/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 1424,
+  "revision": "1784531762357395293"
+}

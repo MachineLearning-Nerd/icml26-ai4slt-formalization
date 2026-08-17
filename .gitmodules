@@ -1,0 +1,3 @@
+[submodule "upstream"]
+	path = upstream
+	url = https://github.com/YuanheZ/lean-stat-learning-theory.git

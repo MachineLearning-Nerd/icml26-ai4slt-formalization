@@ -1,0 +1,35 @@
+{
+  "paper": "dfqmQ9WhCP",
+  "claim_count": 3,
+  "verified_claims": 3,
+  "possible_points": 6,
+  "earned_points": 6,
+  "all_claims_complete": true,
+  "claims": {
+    "C1_comprehensive_slt_formalization": {
+      "passed": true,
+      "lean_files": 55,
+      "full_build": true,
+      "build_release": "v4.32.0",
+      "core_declarations": {
+        "dudley": true,
+        "efronStein": true,
+        "gaussian_lipschitz_concentration": true,
+        "linear_minimax_rate_rank": true
+      },
+      "priority_provenance": "The paper's word 'first' is a historical-priority attribution; executable evidence independently verifies the substantive formalization, not absence of all prior literature."
+    },
+    "C2_dudley_entropy_integral": {
+      "passed": true,
+      "dudley_declaration": true,
+      "remote_build_dudley": true,
+      "priority_provenance": "The paper's word 'first' is a historical-priority attribution; executable evidence independently verifies the named formal theorem and full build."
+    },
+    "C3_human_verified_codebase": {
+      "passed": true,
+      "source_era_lean_lines": 34684,
+      "placeholders": 0,
+      "note": "The published 500-hour human-supervision provenance is reported by the paper; executable verification establishes the codebase is source-era, 30k+ lines, sorry-free, and fully compiled."
+    }
+  }
+}
