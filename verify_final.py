@@ -42,6 +42,7 @@ REQUIRED_PATHS = [
     "AUTHOR_THANK_YOU.md",
     "CITATION.cff",
     "claims.json",
+    "reproduction_verdicts.json",
     "EVIDENCE_MANIFEST.json",
     "verify_final.py",
     "publication_gate.json",
@@ -239,6 +240,28 @@ def verify_artifacts() -> None:
     require(isinstance(rows, list) and len(rows) == 3, "claims.json must contain three claims")
     statuses = [row.get("status") for row in rows]
     require(statuses == EXPECTED_CLAIM_STATUSES, f"unexpected claim statuses: {statuses}")
+
+    verdicts = current_json("reproduction_verdicts.json")
+    require(isinstance(verdicts, dict), "reproduction verdicts are not an object")
+    require(
+        verdicts.get("repository") == f"MachineLearning-Nerd/{REPOSITORY}",
+        "reproduction verdict repository mismatch",
+    )
+    require(verdicts.get("overall_verdict") == "VERIFIED_SCOPED_WITH_PROVENANCE_LIMITS", "overall verdict changed")
+    require(verdicts.get("gate_status") == "SCOPED_PASS", "gate status changed")
+    require(verdicts.get("strict_status") == "NOT_READY", "strict status changed")
+    require(verdicts.get("publication_allowed") is False, "reproduction publication block changed")
+    verdict_rows = verdicts.get("claims")
+    require(isinstance(verdict_rows, list) and len(verdict_rows) == 3, "reproduction verdicts must contain three claims")
+    require(
+        [row.get("status") for row in verdict_rows]
+        == [
+            "VERIFIED_SCOPED",
+            "VERIFIED_SCOPED",
+            "VERIFIED_SCOPED_WITH_PROVENANCE_LIMITS",
+        ],
+        "reproduction verdict statuses changed",
+    )
 
     state = current_json("AUTONOMOUS_STATE.json")
     require(isinstance(state, dict), "state is not an object")

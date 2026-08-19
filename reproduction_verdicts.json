@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-ai4slt-formalization",
+  "paper": {
+    "title": "AI4SLT: Empirical Processes in Lean 4 for Formal Statistical Learning Theory",
+    "arxiv": "2602.02285v2",
+    "openreview": "dfqmQ9WhCP"
+  },
+  "overall_verdict": "VERIFIED_SCOPED_WITH_PROVENANCE_LIMITS",
+  "gate_status": "SCOPED_PASS",
+  "strict_status": "NOT_READY",
+  "publication_allowed": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "VERIFIED_SCOPED",
+      "verdict": "The pinned source-era Lean tree and recorded full release build support the declared empirical-process formalization scope.",
+      "evidence": [
+        "outputs/source_audit.json",
+        "outputs/hf_build.json",
+        "outputs/claim_verification.json",
+        "publication_gate.json"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "VERIFIED_SCOPED",
+      "verdict": "The Dudley entropy-integral declaration is present in the pinned source-era tree and appears in the recorded successful release-build evidence.",
+      "evidence": [
+        "upstream/SLT/Dudley.lean",
+        "outputs/source_audit.json",
+        "outputs/hf_job_build.log",
+        "outputs/claim_verification.json"
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "VERIFIED_SCOPED_WITH_PROVENANCE_LIMITS",
+      "verdict": "Source/build counts exceed 30,000 Lean lines with zero placeholders; the paper's 500-hour human-supervision statement remains provenance.",
+      "evidence": [
+        "outputs/source_audit.json",
+        "outputs/hf_build.json",
+        "outputs/claim_verification.json",
+        "REPORT.md"
+      ]
+    }
+  ],
+  "limitations": [
+    "This record does not independently establish literature-wide priority claims.",
+    "The source-era v4.27.0-rc1 checkout and the recorded v4.32.0 release build are separate artifacts.",
+    "The 500-hour human-supervision statement is not an executable runtime measurement."
+  ]
+}

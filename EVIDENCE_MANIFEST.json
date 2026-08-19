@@ -3,7 +3,7 @@
   "hash_algorithm": "sha256",
   "scope": "AI4SLT paper, source-era submodule, recorded release build, claim audit, and publication dossier",
   "entries": [
-    {"path": "README.md", "sha256": "cd5169286d8388d799452885436a5b99a1dc05c571167598eafdcc431d6b7667"},
+    {"path": "README.md", "sha256": "5cc8010580bb65c3a35fddc7fbb0e1e5176960adb8885e59cf52fbfd475e40e8"},
     {"path": "STATUS.md", "sha256": "d7640b33d8e7518ae4a1277a6937329f1e1271b043098400081610ccdfb1414b"},
     {"path": ".gitmodules", "sha256": "8e859d7b53213c8ddf57ddd4590519f4f1bae6597af4ba494f0f2b0b94dd5b13"},
     {"path": "publication_gate.json", "sha256": "0fc58b1dcd655d8ec4ebcd700314102f645b143f9decef2133ee2e2165eb1b47"},
@@ -17,7 +17,8 @@
     {"path": "BRANCH_AUDIT.md", "sha256": "fe294506cbfe71c5647c954b07cfc3c5010dc72c3e642a7ec475ec521807e743"},
     {"path": "branch-audit.md", "sha256": "1c8eb26741faa14c808992b1deca6d2626d9aa0057aada64af9b119900c4d9b9"},
     {"path": "claims.json", "sha256": "b93d3db62a344c950a3c6720db411e359ea7e7e18d611fc0fb9b58150005193c"},
-    {"path": "verify_final.py", "sha256": "2c705ea422d5195f847ebddc68b478d393f62445dd8bfd0046d84e2b1e35ebd5"},
+    {"path": "reproduction_verdicts.json", "sha256": "6cacc5cb463d6930da1769e76f2187cc86e4fac6407afeaaa3d5c73fa4ec73d7"},
+    {"path": "verify_final.py", "sha256": "ceb9f89f8420d1111b68c74744b96eb22d09b3eee1fd3235a4eed6ceee1a7ca5"},
     {"path": "docs/primary.pdf", "sha256": "6c98193350a5242def4ab6d918e2e6ba7a4110eeb09c63766c9e886e3731e5f2"},
     {"path": "docs/arxiv_source.tar", "sha256": "0091ed288889e3ff262a5f13174065fe51b9debbf5d18bf48b1057ff3ae2a429"},
     {"path": "docs/CLAIM_AUDIT.md", "sha256": "39d1e41a05254348b983609950bd24a275309affb53ae56df2688d8913120b15"},

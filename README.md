@@ -112,6 +112,7 @@ The standardized audit records are:
 - [BRANCH_AUDIT.md](BRANCH_AUDIT.md): normalized branch summary; [branch-audit.md](branch-audit.md) is the complete top-level map.
 - [CITATION.cff](CITATION.cff): machine-readable citation.
 - [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md): author acknowledgment.
+- [reproduction_verdicts.json](reproduction_verdicts.json): machine-readable scoped verdicts and publication gate.
 
 From a fresh clone with the pinned submodule initialized, run:
 

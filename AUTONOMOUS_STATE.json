@@ -37,5 +37,18 @@
     "C1": "verified_scoped",
     "C2": "verified_scoped",
     "C3": "verified_scoped_with_provenance_limits"
-  }
+  },
+  "dossier_files": [
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "ENVIRONMENT.md",
+    "REPORT.md",
+    "BRANCH_AUDIT.md",
+    "CITATION.cff",
+    "AUTHOR_THANK_YOU.md",
+    "claims.json",
+    "reproduction_verdicts.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py"
+  ]
 }
